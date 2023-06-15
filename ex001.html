@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX001</title>
+    <style>
+        button {
+            padding: 1vw;
+            margin: 0.5vw;
+            cursor: pointer;
+        }
+
+        button:hover {
+            padding: 1vw;
+            margin: 0.5vw;
+            cursor: pointer;
+            transform: scale(1.1);
+            transition-duration: 0.5s;
+        }
+
+        .blue {
+            background-color: blue;
+            cursor: pointer;
+        }
+
+        .red {
+            background-color: red;
+            cursor: pointer;
+        }
+
+        .green {
+            background-color: green;
+            cursor: pointer;
+        }
+
+        .cores {
+            margin-top: 10vw;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+<h1>Exercício 001</h1>
+
+
+
+<button onclick="Botao01()">Botão 1</button>
+
+<button onclick="Botao02()">Botão 2</button>
+
+<button onclick="Botao03()">Botão 3</button>
+
+
+
+<div class="cores">
+<h1>Alterando a cor de fundo da página</h1>
+
+<button class="blue" onclick="Botao04()">Botão 4</button>
+
+<button class="red" onclick="Botao05()">Botão 5</button>
+
+<button class="green" onclick="Botao06()">Botão 6</button>
+
+</div>
+
+
+
+
+</body>
+
+<script>
+
+
+function Botao01() {
+    alert("Você clicou no botão 1")
+    document.body.style.backgroundColor = "white"
+}
+
+function Botao02() {
+    alert("Você clicou no botão 2")
+}
+
+function Botao03() {
+    alert("Você clicou no botão 3")
+}
+
+function Botao04() {
+    document.body.style.backgroundColor = "blue"
+}
+
+function Botao05() {
+    document.body.style.backgroundColor = "red"
+}
+
+function Botao06() {
+    document.body.style.backgroundColor = "green"
+}
+
+var numero = 5
+
+var numero2 = 8
+
+console.log(numero * numero2)
+
+
+
+
+</script>
+</html>

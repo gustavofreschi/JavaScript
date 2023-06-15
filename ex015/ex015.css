@@ -1,0 +1,87 @@
+body {
+    background: rgb(0,0,244);
+background: linear-gradient(73deg, rgba(0,0,244,1) 10%, rgba(166,12,231,1) 100%);
+}
+
+img {
+    height: 12vw;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    justify-content: center;
+    background-color: white;
+    height: 100%;
+    width: 60vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    border: 4px solid black;
+}
+
+
+.tudo {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tudo > div > input {
+    padding: 0.3vw;
+    width: 12vw;
+    margin: 8px;
+}
+
+
+
+.tudo > .input2 > input {
+    padding: 0.3vw;
+    width: 12vw;
+    margin: 8px;
+    margin-left: 0.8vw;
+}
+
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.bloco > .tudo > .botoes > button {
+    margin-top: 1vw;
+    padding: 0.5vw;
+    width: 8vw;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    background-color: rgb(18, 62, 196);
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    margin: 10px;
+}
+
+.bloco > .tudo > .botoes > button:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+p {
+    font-size: 1.5em;
+}

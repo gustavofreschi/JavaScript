@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex002</title>
+
+    <style>
+
+    body {
+        background-color: rgba(138, 135, 135, 0.426);
+    }
+
+ 
+    h1 {
+        text-align: center;
+    }
+
+    button {
+        padding: 1vw;
+        border: 2px solid rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: rgb(26, 169, 174);
+        color: white;
+        border-radius: 0.5vw;
+        box-shadow: 2px 2px 2px black;
+        text-align: center;
+    }
+
+    button:hover {
+        padding: 1vw;
+        border: 2px solid rgb(0, 0, 0);
+        cursor: pointer;
+        background-color: rgb(26, 169, 174);
+        color: white;
+        border-radius: 0.5vw;
+        transform: scale(1.02);
+        transition-duration: 0.8s;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+    }
+
+    </style>
+</head>
+<body>
+
+ <h1>Trabalhando com dados</h1>
+
+ <div class="botao">
+ <button onclick="nome()">Quero saber seu nome</button>
+ </div>
+    
+</body>
+
+<script>
+
+function nome() {
+    var nome = prompt("Qual é o seu nome?")
+
+    alert(`Seja Bem vindo, ${nome}.`)
+}
+
+
+
+</script>
+
+
+
+</html>

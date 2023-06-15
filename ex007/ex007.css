@@ -1,0 +1,222 @@
+body {
+    background-color: blue;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    justify-content: center;
+    background-color: white;
+    height: 30vw;
+    width: 60vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    border: 4px solid black;
+}
+
+main > .bloco > input {
+    margin-top: 2vw;
+}
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.times {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.time1 > p {
+    background-color: blue;
+    color: white;
+    width: 12vw;
+    padding: 5px;
+}
+
+.time2 > p {
+    background-color: blue;
+    color: white;
+    width: 12vw;
+    padding: 5px;
+}
+
+.time1 > h2 {
+    color: red;
+    font-size: 5vw;
+}
+
+.time2 > h2 {
+    color: red;
+    font-size: 5vw;
+}
+
+.time1 > button {
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(44, 9, 247, 0.945);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.time1 > button:hover {
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(44, 9, 247, 0.945);
+    font-weight: bold;
+    color: white;
+    transform: scale(1.06);
+    transition-duration: 0.5s;
+}
+
+.time2 > button {
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(44, 9, 247, 0.945);
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.time2 > button:hover {
+    margin: 1vw;
+    padding: 0.7vw;
+    width: 8vw;
+    border-radius: 0.5vw;
+    box-shadow: 0px 0px 5px black;
+    background-color: rgba(44, 9, 247, 0.945);
+    font-weight: bold;
+    color: white;
+    transform: scale(1.06);
+    transition-duration: 0.5s;
+}
+
+
+
+.versus > h2 {
+    color: blue;
+    font-size: 3.5vw;
+    margin-top: 8vw;
+
+}
+
+.bloco2 {
+    justify-content: center;
+    background-color: white;
+    height: 30vw;
+    width: 60vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    border: 4px solid black;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11.1vw;
+}
+
+.times2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.time3 > p {
+    background-color: blue;
+    color: white;
+    width: 12vw;
+    padding: 5px;
+    margin-left: 1.5vw;
+}
+
+.time4 > p {
+    background-color: blue;
+    color: white;
+    width: 12vw;
+    padding: 5px;
+    margin-left: 1.5vw;
+}
+
+.time3 > h2 {
+    color: red;
+    font-size: 5vw;
+}
+
+.time4 > h2 {
+    color: red;
+    font-size: 5vw;
+}
+
+.versus2 > h2 {
+    color: blue;
+    font-size: 3.5vw;
+    margin-top: 8vw;
+
+}
+
+.botoes > button {
+   background-color: blue;
+   color: white;
+   cursor: pointer;
+   width: 5vw;
+   padding: 0.5vw;
+}
+
+.botoes > button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    padding: 0.5vw;
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+ }
+
+.botoes2 > button {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    padding: 0.5vw;
+ }
+
+ .botoes2 > button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 5vw;
+    padding: 0.5vw;
+    transform: scale(0.95);
+    transition-duration: 0.5s;
+ }

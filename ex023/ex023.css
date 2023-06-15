@@ -1,0 +1,74 @@
+body {
+    background-color: blue;
+}
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bloco {
+    justify-content: center;
+    background-color: white;
+    height: 30vw;
+    width: 60vw;
+    border-radius: 0.5vw;
+    text-align: center;
+    border: 4px solid black;
+}
+
+
+.tudo {
+    margin-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tudo > div > input {
+    padding: 0.3vw;
+    width: 12vw;
+    margin: 8px;
+}
+
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    margin-top: 5vw;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.bloco > .tudo > button {
+    margin-top: 1vw;
+    padding: 0.5vw;
+    width: 8vw;
+    border: 2px solid black;
+    background-color: rgb(155, 154, 154);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.bloco > .tudo > button:hover {
+    margin-top: 1vw;
+    padding: 0.5vw;
+    width: 8vw;
+    border: 2px solid black;
+    background-color: rgb(155, 154, 154);
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+p {
+    font-size: 1.5vw;
+}

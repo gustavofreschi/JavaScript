@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex003</title>
+    <style>
+
+    body {
+        text-align: center;
+        background-color: rgba(192, 156, 156, 0.333);
+    }
+
+    button {
+        padding: 1vw;
+        border-radius: 0.5vw;
+        cursor: pointer;
+        background-color: rgba(136, 136, 136, 0.538);
+        font-weight: bold;
+        box-shadow: 2px 2px 2px black;
+        border: 2px solid rgb(0, 0, 0);
+    }
+    
+    button:hover {
+        padding: 1vw;
+        border-radius: 0.5vw;
+        cursor: pointer;
+        background-color: rgba(136, 136, 136, 0.538);
+        font-weight: bold;
+        transform: scale(1.07);
+        transition-duration: 0.6s;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    </style>
+</head>
+<body>
+    
+<h1>Somador de números</h1>
+
+
+<div class="botao">
+<button onclick="BotaoSomar()">Clique para somar</button>
+
+
+</div>
+
+<p>Clique no botão acima para somar</p>
+
+</body>
+
+
+<script>
+
+function BotaoSomar() {
+var n1 = prompt("Digite o primeiro número")
+
+var n2 = prompt("Digite o segundo número")
+
+n1 = Number(n1)
+
+n2 = Number(n2)
+
+var soma = n1 + n2
+
+console.log(soma)
+
+// var n1 = Number(prompt("Digite o primeiro número")) -> Facilita o processo
+}
+
+
+
+
+</script>
+
+
+
+</html>
